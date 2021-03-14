@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>친구 목록</title>
+  </head>
+  <body>
+    <!-- 스테이터스 바 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>연결 없음</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="time">09:31</span>
+      </div>
+      <div class="status-bar__column">
+        <span>92%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- 하단 메뉴 -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <i class="fas fa-comment fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- 친구창 상단 -->
+    <div id="something">
+      <div id="title">
+        <h1>친구</h1>
+      </div>
+      <ul class="icon_ect">
+        <li>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-user-plus"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-music"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-cog"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 친구 목록창 -->
+    <div id="list">
+      <!-- 프로필 -->
+      <div id="mine">
+        <div id="my_img"></div>
+        <ul class="contents">
+          <li class="name">브라운</li>
+          <li class="comment">라인 프렌즈</li>
+        </ul>
+      </div>
+
+      <p class="line"></p>
+
+      <!-- 친구목록 -->
+      <div id="yours">
+        <div class="fr_img"><img src="images/cony.png" alt="코니" /></div>
+        <ul class="fr_contents">
+          <li class="fr_name">코니</li>
+          <li class="fr_comment">카카오 망해..</li>
+        </ul>
+      </div>
+      <div id="yours">
+        <div class="fr_img">
+          <img src="images/sally.png" alt="샐리" />
+        </div>
+        <ul class="fr_contents">
+          <li class="fr_name">샐리</li>
+          <li class="fr_comment">떡상 하고싶다</li>
+        </ul>
+      </div>
+      <div id="yours">
+        <div class="fr_img">
+          <img src="images/ryan.png" alt="라이언" />
+        </div>
+        <ul class="fr_contents">
+          <li class="fr_name">라이언</li>
+          <li class="fr_comment">골프 한잔</li>
+        </ul>
+      </div>
+      <div id="yours">
+        <div class="fr_img">
+          <img src="images/apeach.png" alt="apeach" />
+        </div>
+        <ul class="fr_contents">
+          <li class="fr_name">어피치</li>
+          <li class="fr_comment"></li>
+        </ul>
+      </div>
+      <div id="yours">
+        <div class="fr_img">
+          <img src="images/neo.png" alt="neo" />
+        </div>
+        <ul class="fr_contents">
+          <li class="fr_name">네오</li>
+          <li class="fr_comment">프로도♥</li>
+        </ul>
+      </div>
+      <div id="yours">
+        <div class="fr_img">
+          <img src="images/frodo.png" alt="frodo" />
+        </div>
+        <ul class="fr_contents">
+          <li class="fr_name">프로도</li>
+          <li class="fr_comment">네오♡</li>
+        </ul>
+      </div>
+      <div id="yours">
+        <div class="fr_img">
+          <img src="images/jayG2.png" alt="제이지" />
+        </div>
+        <ul class="fr_contents">
+          <li class="fr_name">제이지</li>
+          <li class="fr_comment">나 외롭다</li>
+        </ul>
+      </div>
+      <div id="yours">
+        <div class="fr_img">
+          <img src="images/muzi.png" alt="무지" />
+        </div>
+        <ul class="fr_contents">
+          <li class="fr_name">무지</li>
+          <li class="fr_comment">힘을 내자</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PC용 경고창(?) 모바일에서만 볼 수 있다 -->
+    <div id="no-mobile">
+      <span>모바일 화면에서만 가능합니다!</span>
+    </div>
+
+    <script src="js/status-bar__time.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c8e2b99a17.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

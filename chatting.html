@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>채팅중</title>
+  </head>
+  <body>
+    <!-- 스테이터스 바 -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>연결 없음</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="time">09:31</span>
+      </div>
+      <div class="status-bar__column">
+        <span>92%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- 채팅창 상단 -->
+    <div id="something2">
+      <div id="ing">
+        <button id="icon2" class="left" onclick="location.href='chat.html'">
+          <a href="#">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+        </button>
+        <div id="png">
+          <img src="images/jayG2.png" alt="jayG2" />
+        </div>
+        <div id="text_name">제이지</div>
+        <div id="icon2" class="right">
+          <a href="#">
+            <i class="fas fa-phone-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <p class="line2"></p>
+
+    <!-- 하단 메뉴 -->
+    <div id="text_box">
+      <form id="chatting_form">
+        <input id="chatting_input" type="text" />
+      </form>
+      <div id="icon4">
+        <a href="#">
+          <i class="fas fa-plus"></i>
+        </a>
+      </div>
+      <div id="icon4">
+        <a href="#">
+          <i class="fas fa-camera"></i>
+        </a>
+      </div>
+      <div id="icon4" class="mic">
+        <a href="#">
+          <i class="fas fa-microphone"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- 대화 내용 -->
+    <div id="talking">
+      <ul class="fr_talk">
+        <li class="left_talk">ㅎㅇ</li>
+        <li class="left_talk">ㅎㅇ2</li>
+        <li class="right_talk">ㅂ0</li>
+      </ul>
+    </div>
+
+    <!-- PC용 경고창(?) 모바일에서만 볼 수 있다 -->
+    <div id="no-mobile">
+      <span>모바일 화면에서만 가능합니다!</span>
+    </div>
+
+    <script src="js/status-bar__time.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c8e2b99a17.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

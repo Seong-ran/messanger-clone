@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>채팅 목록</title>
+</head>
+<body>
+  
+  <!-- 스테이터스 바 -->
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>연결 없음</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span id="time">09:31</span>
+    </div>
+    <div class="status-bar__column">
+      <span>92%</span>
+      <i class="fas fa-battery-full"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  
+  
+  <!-- 하단 메뉴 -->
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fas fa-user fa-lg"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chat.html">
+          <i class="fas fa-comment fa-lg"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <i class="fas fa-ellipsis-h fa-lg"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+  
+  <!-- 채팅창 상단 -->
+  <div id="something">
+      <div id="title">
+          <h1>채팅</h1>
+      </div>
+      <ul class="icon_ect">
+          <li><a href="#"><i class="fas fa-search"></i></a></li>
+          <li><a href="#"><i class="fas fa-comment-dots"></i></a></li>
+          <li><a href="#"><i class="fas fa-music"></i></a></li>
+          <li><a href="#"><i class="fas fa-cog"></i></a></li>
+      </ul>
+  </div>
+  
+  
+  
+  <!-- 채팅 목록창 -->
+  <div id="list">
+      <!-- 프로필 -->
+      <button id="mine" onclick="location.href='chatting.html'">
+          <div id="my_img">
+            <img src="images/jayG2.png" alt="jayG2">
+          </div>
+          <ul class="contents">
+              <li class="name">제이지</li>
+              <li class="comment">라인 폭망</li>
+          </ul>
+      </button>
+      <div id="mine">
+          <div id="my_img">
+            <img src="images/neo.png" alt="neo">
+          </div>
+          <ul class="contents">
+              <li class="name">네오</li>
+              <li class="comment">제이지 닮았어 브라운</li>
+          </ul>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  <!-- PC용 경고창(?) 모바일에서만 볼 수 있다 -->
+   <div id="no-mobile">
+     <span>모바일 화면에서만 가능합니다!</span>
+   </div>      
+  
+  
+  <script src="js/status-bar__time.js"></script>  
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src='https://kit.fontawesome.com/c8e2b99a17.js' crossorigin='anonymous'></script> 
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* 친구창 상단 타이틀 */
+#something {
+    display: flex;
+    width: 100%;
+    margin: 10px auto 15px;
+    color: #fff;
+}
+#title {
+    width: 50%;
+    height: auto;
+    font-size: 28px;
+    font-family: mainFont, sans-serif;
+    font-weight: 600;
+    padding: 10px 10px 10px 15px;
+    opacity: 0.8;
+}
+#title h1 {
+    color: #fff;
+}
+.icon_ect {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon_ect > li{
+   padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+   
+}
+.icon_ect > li > a{
+    opacity: 0.7;
+    color: #fff;
+}
+.icon_ect > li > a .fas {
+    color: #fdfdff;
+}
+
+
+/* 마이 프로필 */
+#list {
+    width: 97%;
+    margin: 0 auto;
+    height: 100vh;
+}
+#mine {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+}
+#my_img {
+    background-image: url(../images/brown.png);
+    background-size: cover;
+    box-shadow: 0px 0px 15px #44494f;
+    width: 20%;
+    height: 19vw;
+    border-radius: 22vw;
+    margin: 5px;
+}
+
+
+.contents {
+    width: 75%;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.name {
+    width: 100%;
+    height: 50%;
+    line-height: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: mainFont, sans-serif;
+    color: #fdfdff;
+}
+.comment {
+    width: 100%;
+    height: 50%;
+    line-height: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: mainFont, sans-serif;
+    color: #fdfdff;
+}
+
+
+
+/* 친구 목록 */
+
+#yours {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+}
+.fr_img {
+    box-shadow: 0px 0px 15px  #44494f;
+    width: 17%;
+    height: 16vw;
+    border-radius: 20vw;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.fr_img > img {
+  width: 100%;
+  height: 16vw;
+  border-radius: 20vw;
+}
+
+.fr_contents {
+    width: 83%;
+    height: 15vw;
+    padding-left: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.fr_name {
+    display: inline-block;
+    line-height: 48px;
+    width: 100%;
+    height: 50%;
+    opacity: 0.8;
+    font-weight: 600;
+    font-family: mainFont, sans-serif;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.fr_comment {
+    display: inline-block;
+    line-height: 40px;
+    width: 100%;
+    height: 50%;
+    opacity: 0.8;
+    font-family: mainFont, sans-serif;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+
+/* 꾸밈 라인 */
+.line{
+    box-shadow: 0px 0px 1px  #44494f;
+    width: 97%;
+    height: 1px;
+    margin: 10px auto;
+    background-color: rgba(199, 199, 199, 0.281);
+}
+
+body {
+    height: 100vh;
+}

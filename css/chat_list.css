@@ -1,0 +1,90 @@
+/* 친구창 상단 타이틀 */
+#something {
+    display: flex;
+    width: 100%;
+    margin: 10px auto 15px;
+}
+#title {
+    width: 50%;
+    height: auto;
+    font-size: 28px;
+    font-family: mainFont, sans-serif;
+    font-weight: 600;
+    padding: 10px 10px 10px 15px;
+    opacity: 0.8;
+}
+.icon_ect {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon_ect > li{
+   padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+.icon_ect > li > a{
+    opacity: 0.7;
+}
+
+/* 마이 프로필 */
+#list {
+    width: 97%;
+    margin: 0 auto;
+}
+#mine {
+    display: flex;
+    margin: 15px auto;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+}
+button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+button #my_img {
+    box-shadow: 0px 0px 15px #3a3d42;
+    border: 5px solid #1c2329;
+    width: 17%;
+    height: 17vw;
+    border-radius: 22vw;
+    margin: 5px;
+}
+#my_img > img {
+  width: 100%;
+  height; 17vw;
+  border-radius: 22vw;
+}
+.contents {
+    width: 75%;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.name {
+    width: 100%;
+    height: 50%;
+    line-height: 17px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: mainFont, sans-serif;    
+}
+.comment {
+    width: 100%;
+    height: 50%;
+    line-height: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: mainFont, sans-serif;
+}
+
+
+
+
+body {
+    height: 100vh;
+}

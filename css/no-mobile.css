@@ -1,0 +1,21 @@
+#no-mobile {
+  position: absolute;
+  z-index: 9999; /* 다른것 보다 우선적으로 디스플레이 된다. */
+  height: 100vh;
+  width: 100%;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+/* 넓이가 최대 420px까지는 아래의 항목을 처리한다. */
+@media screen and (max-width: 420px){
+  
+  #no-mobile {
+    display: none;
+  }
+  
+}

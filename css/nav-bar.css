@@ -1,0 +1,30 @@
+.nav {
+  position:fixed;
+    z-index: 9999;
+  bottom: 0;
+  width: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 50px;
+  box-sizing: border-box;
+  box-shadow: 0px -1px 25px #44494f;
+  border: 1px solid #3d4047;
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #1a1d24, #343841);
+}
+
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #fff;
+}
+.nav__link {
+  position: relative;
+  color: #18344c;
+    opacity: 0.8;
+}
+.nav__link {
+  color: #fff;
+}

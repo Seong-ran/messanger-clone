@@ -1,0 +1,9 @@
+@import "reset.css"; /* 기본속성 초기화 */
+/* 리셋을 사용했을 시, 겹치는 속성은 적용이 안되는 경우가 있으니, *같은 모든 태그 선택자 말고 지정 태그를 사용할 것 */
+@import "status-bar.css";
+@import "nav-bar.css";
+@import "no-mobile.css";
+@import "login.css";
+@import "friends_list.css";
+@import "chat_list.css";
+@import "chatting.css";
